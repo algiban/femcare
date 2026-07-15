@@ -1,0 +1,12 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080A0F"/>
+  <circle cx="1040" cy="70" r="330" fill="#172A68" fill-opacity="0.45"/>
+  <circle cx="150" cy="650" r="300" fill="#13204B" fill-opacity="0.7"/>
+  <rect x="84" y="90" width="82" height="82" rx="22" fill="#F5F7FF"/>
+  <path d="M102 153L121.5 112.8C122.5 110.7 125.5 110.7 126.5 112.8L146 153H134.5L124 130.2L113.4 153H102Z" fill="#0B0D12"/>
+  <path d="M114 143H134L138 153H110L114 143Z" fill="#6C8CFF"/>
+  <text x="84" y="260" fill="#F5F7FF" font-family="Arial, sans-serif" font-size="70" font-weight="700">Arkha Developer</text>
+  <text x="84" y="330" fill="#A8B0C3" font-family="Arial, sans-serif" font-size="34">Digital products built with clarity, security, and care.</text>
+  <rect x="84" y="390" width="460" height="70" rx="35" fill="#6C8CFF"/>
+  <text x="125" y="437" fill="#07102C" font-family="Arial, sans-serif" font-size="28" font-weight="700">Website &amp; Legal Center</text>
+</svg>

@@ -1,0 +1,50 @@
+export const siteConfig = {
+  name: "Arkha Developer",
+  legalName: "Arkha Developer",
+  tagline: "Membangun produk digital yang aman, relevan, dan manusiawi.",
+  description:
+    "Website resmi Arkha Developer untuk informasi produk, dukungan pengguna, kebijakan privasi, dan penghapusan akun.",
+  url: "https://arkhadev.com",
+  locale: "id_ID",
+  supportEmail: "support@arkhadev.com",
+  privacyEmail: "privacy@arkhadev.com",
+  location: "Bekasi, Jawa Barat, Indonesia",
+  social: {
+    github: "https://github.com/arkhadeveloper",
+    instagram: "https://instagram.com/arkhadeveloper",
+    linkedin: "https://linkedin.com/company/arkhadeveloper",
+  },
+  apps: {
+    femcare: {
+      name: "Femcare",
+      slug: "femcare",
+      shortDescription:
+        "Pendamping edukasi kesehatan reproduksi perempuan dengan rekomendasi yang dipersonalisasi.",
+      category: "Kesehatan & Kebugaran",
+      availability: "Dalam pengembangan",
+      playStoreUrl: "",
+      privacyEffectiveDate: "15 Juli 2026",
+      minimumAge: 18,
+    },
+    youfitly: {
+      name: "YouFitly",
+      slug: "youfitly",
+      shortDescription:
+        "Rekomendasi fashion perempuan berdasarkan bentuk tubuh, gaya, dan konteks acara.",
+      category: "Fashion Technology",
+      availability: "Dalam pengembangan",
+      playStoreUrl: "",
+    },
+    arkhaflow: {
+      name: "Arkhaflow",
+      slug: "arkhaflow",
+      shortDescription:
+        "Platform operasional dan membership multi-role untuk bisnis yang ingin tumbuh lebih terstruktur.",
+      category: "Productivity",
+      availability: "Konsep produk",
+      playStoreUrl: "",
+    },
+  },
+} as const;
+
+export type AppKey = keyof typeof siteConfig.apps;
