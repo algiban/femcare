@@ -45,6 +45,8 @@ export default function SupportPage() {
           <div>
             <h2 className="display-small">Pilihan bantuan</h2>
             <div className="support-links">
+              <Link href="/privacy-policy/arkhaflow"><strong>Privasi ArkhaFlow</strong><span>Akun, bisnis, membership, transaksi, pembayaran, dan keamanan.</span></Link>
+              <Link href="/privacy-policy/arkhatouring"><strong>Privasi ArkhaTouring</strong><span>Perjalanan, rute, lokasi, perangkat, dan media.</span></Link>
               <Link href="/privacy-policy/arkhahr"><strong>Privasi ArkhaHR</strong><span>Lokasi, selfie, data karyawan, dan izin perangkat.</span></Link>
               <Link href="/legal/arkhahr"><strong>Legal ArkhaHR</strong><span>Ketentuan penggunaan dan tanggung jawab layanan.</span></Link>
               <Link href="/account-deletion/femcare"><strong>Hapus akun Femcare</strong><span>Jalur resmi penghapusan akun dan data.</span></Link>

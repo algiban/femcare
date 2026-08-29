@@ -8,6 +8,7 @@ export const siteConfig = {
   locale: "id_ID",
   supportEmail: "support@arkhadev.com",
   privacyEmail: "privacy@arkhadev.com",
+  demoFormUrl: "https://forms.gle/JqrfHk1Lf9yFfypa7",
   location: "Bekasi, Jawa Barat, Indonesia",
   social: {
     github: "https://github.com/arkhadeveloper",
@@ -36,13 +37,24 @@ export const siteConfig = {
       playStoreUrl: "",
     },
     arkhaflow: {
-      name: "Arkhaflow",
+      name: "ArkhaFlow",
       slug: "arkhaflow",
       shortDescription:
         "Platform operasional dan membership multi-role untuk bisnis yang ingin tumbuh lebih terstruktur.",
       category: "Productivity",
-      availability: "Konsep produk",
+      availability: "Dalam pengembangan",
       playStoreUrl: "",
+      privacyEffectiveDate: "29 Agustus 2026",
+    },
+    arkhatouring: {
+      name: "ArkhaTouring",
+      slug: "arkhatouring",
+      shortDescription:
+        "Platform pendamping perjalanan dan touring untuk membantu koordinasi rute, anggota, lokasi, dan aktivitas perjalanan.",
+      category: "Travel & Navigation",
+      availability: "Dalam pengembangan",
+      playStoreUrl: "",
+      privacyEffectiveDate: "29 Agustus 2026",
     },
     arkhahr: {
       name: "ArkhaHR",

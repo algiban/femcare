@@ -15,11 +15,14 @@ export function Footer() {
           <h2 className="footer-title">Produk</h2>
           <Link href="/projects/arkhahr">ArkhaHR</Link>
           <Link href="/projects/femcare">Femcare</Link>
-          <Link href="/projects">YouFitly</Link>
-          <Link href="/projects">Arkhaflow</Link>
+          <Link href="/projects/youfitly">YouFitly</Link>
+          <Link href="/projects/arkhaflow">ArkhaFlow</Link>
+          <Link href="/projects/arkhatouring">ArkhaTouring</Link>
         </div>
         <div>
           <h2 className="footer-title">Legal</h2>
+          <Link href="/privacy-policy/arkhaflow">ArkhaFlow Privacy</Link>
+          <Link href="/privacy-policy/arkhatouring">ArkhaTouring Privacy</Link>
           <Link href="/privacy-policy/arkhahr">ArkhaHR Privacy</Link>
           <Link href="/legal/arkhahr">ArkhaHR Legal</Link>
           <Link href="/privacy-policy/femcare">Femcare Privacy</Link>

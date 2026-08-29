@@ -105,6 +105,8 @@ export default function HomePage() {
               sumber informasi resmi untuk produk Arkha Developer.
             </p>
             <div className="link-list">
+              <Link href="/privacy-policy/arkhaflow">Privacy Policy ArkhaFlow <span>→</span></Link>
+              <Link href="/privacy-policy/arkhatouring">Privacy Policy ArkhaTouring <span>→</span></Link>
               <Link href="/privacy-policy/arkhahr">Privacy Policy ArkhaHR <span>→</span></Link>
               <Link href="/legal/arkhahr">Legal ArkhaHR <span>→</span></Link>
               <Link href="/privacy-policy/femcare">Privacy Policy Femcare <span>→</span></Link>

@@ -8,6 +8,18 @@ export const metadata: Metadata = {
 
 const documents = [
   {
+    product: "ArkhaFlow",
+    title: "Privacy Policy ArkhaFlow",
+    description: "Menjelaskan data akun, bisnis, membership, transaksi, pembayaran, hak akses, retensi, keamanan, dan hak pengguna.",
+    href: "/privacy-policy/arkhaflow",
+  },
+  {
+    product: "ArkhaTouring",
+    title: "Privacy Policy ArkhaTouring",
+    description: "Menjelaskan data akun, perjalanan, rute, lokasi, perangkat, media, penyimpanan, keamanan, dan hak pengguna.",
+    href: "/privacy-policy/arkhatouring",
+  },
+  {
     product: "ArkhaHR",
     title: "Privacy Policy ArkhaHR",
     description: "Menjelaskan data karyawan, absensi, lokasi, selfie, izin perangkat, penyimpanan lokal, retensi, dan hak pengguna.",
@@ -53,7 +65,7 @@ export default function LegalPageIndex() {
           <p className="eyebrow">Legal center</p>
           <h1>Informasi yang jelas tentang layanan dan data pengguna.</h1>
           <p className="hero-copy">
-            Dokumen di bawah ini menjadi rujukan resmi untuk penggunaan ArkhaHR, Femcare, dan layanan Arkha Developer.
+            Dokumen di bawah ini menjadi rujukan resmi untuk penggunaan ArkhaFlow, ArkhaTouring, ArkhaHR, Femcare, dan layanan Arkha Developer.
           </p>
         </div>
       </section>

@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/projects/arkhahr",
     "/legal",
     "/legal/arkhahr",
+    "/privacy-policy/arkhaflow",
+    "/privacy-policy/arkhatouring",
     "/privacy-policy/arkhahr",
     "/privacy-policy/femcare",
     "/terms/femcare",
