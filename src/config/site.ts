@@ -44,6 +44,17 @@ export const siteConfig = {
       availability: "Konsep produk",
       playStoreUrl: "",
     },
+    arkhahr: {
+      name: "ArkhaHR",
+      slug: "arkhahr",
+      shortDescription:
+        "Human Resource Information System untuk absensi, pengajuan karyawan, administrasi HR, dan operasional tenaga kerja dalam satu alur.",
+      category: "Human Resources",
+      availability: "Pengembangan aktif",
+      playStoreUrl: "",
+      privacyEffectiveDate: "29 Agustus 2026",
+      legalEffectiveDate: "29 Agustus 2026",
+    },
   },
 } as const;
 

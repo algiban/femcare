@@ -7,7 +7,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/projects",
     "/projects/femcare",
+    "/projects/arkhahr",
     "/legal",
+    "/legal/arkhahr",
+    "/privacy-policy/arkhahr",
     "/privacy-policy/femcare",
     "/terms/femcare",
     "/account-deletion/femcare",
@@ -19,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${siteConfig.url}${route}`,
     lastModified: new Date(),
-    changeFrequency: route.includes("privacy") || route.includes("terms") ? "monthly" : "weekly",
-    priority: route === "" ? 1 : 0.7,
+    changeFrequency: route.includes("privacy") || route.includes("terms") || route.includes("legal") ? "monthly" : "weekly",
+    priority: route === "" ? 1 : route.startsWith("/projects/") ? 0.8 : 0.7,
   }));
 }

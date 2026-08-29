@@ -16,7 +16,7 @@ export default function ProjectsPage() {
           <h1>Produk yang dibangun untuk kebutuhan berbeda.</h1>
           <p className="hero-copy">
             Portofolio Arkha Developer menggabungkan rekomendasi cerdas, pengalaman pengguna,
-            dan sistem operasional yang terstruktur.
+            HRIS, dan sistem operasional yang terstruktur.
           </p>
         </div>
       </section>
@@ -48,6 +48,15 @@ export default function ProjectsPage() {
             </div>
             <p>{siteConfig.apps.arkhaflow.shortDescription}</p>
             <span className="status-pill">{siteConfig.apps.arkhaflow.availability}</span>
+          </article>
+          <article className="project-row">
+            <div className="project-number">04</div>
+            <div>
+              <p className="app-category">{siteConfig.apps.arkhahr.category}</p>
+              <h2>{siteConfig.apps.arkhahr.name}</h2>
+            </div>
+            <p>{siteConfig.apps.arkhahr.shortDescription}</p>
+            <Link href="/projects/arkhahr" className="button button-secondary">Detail produk</Link>
           </article>
         </div>
       </section>

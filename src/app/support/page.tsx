@@ -10,6 +10,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
+    question: "Kenapa ArkhaHR meminta akses lokasi atau kamera?",
+    answer: "Izin tersebut hanya dibutuhkan untuk fitur yang memerlukannya, misalnya validasi lokasi/geofence dan selfie absensi. Kebijakan organisasi dapat menentukan bukti apa yang wajib digunakan.",
+  },
+  {
     question: "Bagaimana cara menghapus akun Femcare?",
     answer: "Buka Profil → Pengaturan → Hapus Akun, atau gunakan halaman Account Deletion di website ini.",
   },
@@ -18,12 +22,8 @@ const faqs = [
     answer: "Tidak. Femcare menyediakan informasi edukatif dan rekomendasi umum, bukan diagnosis atau pengobatan medis.",
   },
   {
-    question: "Data apa yang disimpan?",
-    answer: "Jenis data bergantung pada fitur yang digunakan, termasuk data akun, profil, informasi kesehatan yang diberikan, riwayat, dan data teknis. Rinciannya ada pada Privacy Policy.",
-  },
-  {
     question: "Saya tidak dapat login. Apa yang harus dilakukan?",
-    answer: "Pastikan koneksi aktif, versi aplikasi terbaru, dan email yang digunakan benar. Kirim detail error tanpa menyertakan kata sandi atau OTP.",
+    answer: "Pastikan koneksi aktif, versi aplikasi terbaru, dan identitas login yang digunakan benar. Kirim detail error tanpa menyertakan kata sandi atau OTP.",
   },
 ];
 
@@ -45,9 +45,10 @@ export default function SupportPage() {
           <div>
             <h2 className="display-small">Pilihan bantuan</h2>
             <div className="support-links">
+              <Link href="/privacy-policy/arkhahr"><strong>Privasi ArkhaHR</strong><span>Lokasi, selfie, data karyawan, dan izin perangkat.</span></Link>
+              <Link href="/legal/arkhahr"><strong>Legal ArkhaHR</strong><span>Ketentuan penggunaan dan tanggung jawab layanan.</span></Link>
               <Link href="/account-deletion/femcare"><strong>Hapus akun Femcare</strong><span>Jalur resmi penghapusan akun dan data.</span></Link>
-              <Link href="/privacy-policy/femcare"><strong>Privasi dan data</strong><span>Lihat data yang diproses dan hak pengguna.</span></Link>
-              <Link href="/medical-disclaimer/femcare"><strong>Informasi kesehatan</strong><span>Pahami batas fungsi rekomendasi Femcare.</span></Link>
+              <Link href="/privacy-policy/femcare"><strong>Privasi Femcare</strong><span>Lihat data yang diproses dan hak pengguna.</span></Link>
             </div>
             <p className="support-email">Email langsung: <a href={`mailto:${siteConfig.supportEmail}`}>{siteConfig.supportEmail}</a></p>
           </div>
