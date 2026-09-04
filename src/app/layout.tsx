@@ -4,7 +4,6 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/config/site";
 import "./globals.css";
 
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
@@ -24,15 +23,17 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${siteConfig.name} — Digital Products`,
     description: siteConfig.description,
-    images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: siteConfig.name }],
+    images: [
+      { url: "/og-arkha.png", width: 1200, height: 630, alt: siteConfig.name },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} — Digital Products`,
     description: siteConfig.description,
-    images: ["/og-image.svg"],
+    images: ["/og-arkha.png"],
   },
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/logo-arkha.png" },
 };
 
 export const viewport: Viewport = {
@@ -45,11 +46,15 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="id" suppressHydrationWarning>
       <body>
-        <a className="skip-link" href="#main-content">Lewati ke konten utama</a>
+        <a className="skip-link" href="#main-content">
+          Lewati ke konten utama
+        </a>
         <Header />
         <div id="main-content">{children}</div>
         <Footer />

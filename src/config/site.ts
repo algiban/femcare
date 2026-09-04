@@ -4,10 +4,10 @@ export const siteConfig = {
   tagline: "Membangun produk digital yang aman, relevan, dan manusiawi.",
   description:
     "Website resmi Arkha Developer untuk informasi produk, dukungan pengguna, kebijakan privasi, dan penghapusan akun.",
-  url: "https://arkhadev.com",
+  url: "https://arkha-dev.com",
   locale: "id_ID",
-  supportEmail: "support@arkhadev.com",
-  privacyEmail: "privacy@arkhadev.com",
+  supportEmail: "algibbankhanif@gmail.com",
+  privacyEmail: "algibbankhanif@gmail.com",
   demoFormUrl: "https://forms.gle/JqrfHk1Lf9yFfypa7",
   location: "Bekasi, Jawa Barat, Indonesia",
   social: {
